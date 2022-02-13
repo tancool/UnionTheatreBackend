@@ -1,0 +1,26 @@
+{
+  "name": "movie_end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.2.2",
+    "glob": "^7.1.6",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^2.5.0",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^9.1.0",
+    "koa-session": "^6.0.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.9.28",
+    "node-xlsx": "^0.15.0"
+  }
+}

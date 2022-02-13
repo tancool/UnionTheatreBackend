@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let temData = [
+            {
+                articleComment: [[Array]],
+                articeCode: 1000038,
+                movieId: 10042,
+                userId: 100039,
+                articleCreateDate: '1597305219621',
+                articleChangeData: '1597305219621',
+                articleTitle: '惊险的文章',
+                articleContent: '这是一个文章这是一个文章内容内容',
+                articleIMG: 'http://127.0.0.1:3000/static/img/article/article38.jpg',
+                actileViews: 1035
+            },
+            {
+                articleComment: [[Array]],
+                articeCode: 1000037,
+                movieId: 10041,
+                userId: 100038,
+                articleCreateDate: '1597305219617',
+                articleChangeData: '1597305219617',
+                articleTitle: '惊险的文章',
+                articleContent: '这是一个文章这是一个文章内容内容',
+                articleIMG: 'http://127.0.0.1:3000/static/img/article/article37.jpg',
+                actileViews: 1034
+            },
+            {
+                articleComment: [[Array]],
+                articeCode: 1000036,
+                movieId: 10040,
+                userId: 100037,
+                articleCreateDate: '1597305219614',
+                articleChangeData: '1597305219614',
+                articleTitle: '惊险的文章',
+                articleContent: '这是一个文章这是一个文章内容内容',
+                articleIMG: 'http://127.0.0.1:3000/static/img/article/article36.jpg',
+                actileViews: 1033
+            },
+            {
+                articleComment: [[Array]],
+                articeCode: 1000035,
+                movieId: 10039,
+                userId: 100036,
+                articleCreateDate: '1597305219611',
+                articleChangeData: '1597305219611',
+                articleTitle: '惊险的文章',
+                articleContent: '这是一个文章这是一个文章内容内容',
+                articleIMG: 'http://127.0.0.1:3000/static/img/article/article35.jpg',
+                actileViews: 1032
+            },
+            {
+                articleComment: [[Array]],
+                articeCode: 1000034,
+                movieId: 10038,
+                userId: 100035,
+                articleCreateDate: '1597305219605',
+                articleChangeData: '1597305219605',
+                articleTitle: '惊险的文章',
+                articleContent: '这是一个文章这是一个文章内容内容',
+                articleIMG: 'http://127.0.0.1:3000/static/img/article/article34.jpg',
+                actileViews: 1031
+            },
+            {
+                articleComment: [[Array]],
+                articeCode: 1000033,
+                movieId: 10037,
+                userId: 100034,
+                articleCreateDate: '1597305219602',
+                articleChangeData: '1597305219602',
+                articleTitle: '惊险的文章',
+                articleContent: '这是一个文章这是一个文章内容内容',
+                articleIMG: 'http://127.0.0.1:3000/static/img/article/article33.jpg',
+                actileViews: 1030
+            }
+        ];
+        let UserData = [
+            {
+                userAvatar: 'http://127.0.0.1:3030/static/img/userimg/default.png',
+                userNetName: '会飞的派大星'
+            },
+            {
+                userAvatar: 'http://127.0.0.1:3029/static/img/userimg/default.png',
+                userNetName: '会飞的派大星'
+            },
+            {
+                userAvatar: 'http://127.0.0.1:3028/static/img/userimg/default.png',
+                userNetName: '会飞的派大星'
+            },
+            {
+                userAvatar: 'http://127.0.0.1:3027/static/img/userimg/default.png',
+                userNetName: '会飞的派大星'
+            },
+            {
+                userAvatar: 'http://127.0.0.1:3026/static/img/userimg/default.png',
+                userNetName: '会飞的派大星'
+            },
+            {
+                userAvatar: 'http://127.0.0.1:3025/static/img/userimg/default.png',
+                userNetName: '会飞的派大星'
+            }
+        ];
+        if (temData.length == UserData.length) {
+            temData.forEach((item, index) => {
+                item.userinfo = UserData[index]; // 这里是数据的引用.
+            });
+            console.log(temData);
+        } else {
+            console.log("数据不一致")
+        }
+
+        a = [
+            [
+                {
+                    "_id": ObjectId("5f339a4bbafa6141f85410ee"),
+                    "commentUser": 100001
+                },
+                {
+                    "_id": ObjectId("5f339a4bbafa6141f85410ef"),
+                    "comment": "这真是太好看了"
+                }
+            ],
+            [
+                {
+                    "_id": ObjectId("5f339a4bbafa6141f85410f0"),
+                    "commentUser": 100002
+                },
+                {
+                    "_id": ObjectId("5f339a4bbafa6141f85410f1"),
+                    "comment": " ! Great !S Beauiful!!Incredible!!"
+                }
+            ]
+        ];
+
+
+
+        commentUser//c//100001//r//comment//c//这真是太好看了//r//supportTheCommnent//c//6//r//score//c//4//n//
+        commentUser//c//100002//r//comment//c// ! Great !S Beauiful!!Incredible!!//r//supportTheCommnent//c//6//r//score//c//4
+    </script>
+</body>
+
+</html>
